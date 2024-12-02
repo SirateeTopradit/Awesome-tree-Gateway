@@ -1,0 +1,22 @@
+#ifndef SECRETS_H
+#define SECRETS_H
+
+// === WiFi Configuration ===
+#define WIFI_SSID "POCO F5"
+#define WIFI_PASSWORD "123456aA"
+
+// === Firebase Configuration ===
+#define API_KEY "AIzaSyAm0lVR4SRAn2Roj2cixoVWpt3jjmBiLRY"
+#define USER_EMAIL "esp01@awesomepw.com"
+#define USER_PASSWORD "123456"
+#define DATABASE_URL "https://awesomeplantwateringdb-default-rtdb.asia-southeast1.firebasedatabase.app/"
+
+
+// === Google Sheets Configuration ===
+const char spreadsheetId[] = "1jfHSwQGUyn4sXa_z6zUbHqK9EECjCONMs2NGPVQHKUU";
+#define PROJECT_ID "awesomeplantwateringdb2"
+#define CLIENT_EMAIL "awesomeplantwateringdb2@awesomeplantwateringdb2.iam.gserviceaccount.com"
+const char PRIVATE_KEY[] PROGMEM = "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCe3fT4skcMSbiT\n+e4uf/XcnslP8XiM8Trvzzc6HsNn5bUaBDJY15RFqqdTHnxpUnIC5FVFa1Cd2lEd\n20pfXqvHiatELIHHY0WqZLv+2Yt7xfCEFba9x6Sw8ZskNRs9GQ+IKPSMEYZBzmmF\nUa8pYD/Zun79L1T0PMLPmtQuOS3UEfoLN4mZ6KVjWGkf3D8KVhyWle0EXg/lCIw1\n8TuZUlAm/IggNpQelzXWN9N7OT0vFYE4koZm7pj5fYL2NiTOQLwzLbm31nW2xguj\nx0D8BR/jOX8VLUtX/s1zZCGMHHnZR9Mz7anXZ3Y2S3cU7n7vVezeZw0YovRTp+ya\nfaPlna1DAgMBAAECggEAAqHu80gRAVUfZ+RWXBLmwhcngtmfg8ZjkaG/aokj987I\np3u2Ud6QqG7hgvEYYq5pET8zYokatuLtQS9nFhl9gzr2yZRrOiCdAOvWaay1MQHg\nsG+jrZVnVz9JsNnob6TAqyLymneX3/NJsFngKzFbHYKHpC5qm/l9yO7p4TI1XjQ/\nVwcdzWNdfBtm2c7I6HCgzVgCDuaBp3MGdPrJCPLC79T4mbRaUmbjkQngEEsVo6TF\nTZy/+4gBNjz76vTue2CuBgPKx9K+i/AD6+7fYnADOlFxJNJnnnwCO1+5dyISqusx\nktBuskqkxk66LSwI5YTkKcOk9zwcXyHu6qhDOM01AQKBgQDetNdSZpyqJ3m/tir+\nmLzrOmL4lkqJ08/46vhue0soEBqRM2HGxwH1Aix4+G79tadP7FcMiR3wrg9VvRmA\nObUBH36f05iwIFZMiZiRvCBkK8BGzmbvTbpZetE0wz5RI8YK/gPjkjfAjf997Kx1\nBKt4jiRYtL0fxqWoBuoYvBlqwQKBgQC2ne3tiNON+xJLx5kJ8A7DhI2dd9f9WxRL\noW0/Ra2bdLlRSQL/nCFIY3+LB/DsU54OypHZCLhwIl4cQ8FQHe/SA7KvbvYGBCcs\n9qLSxXUTzQCnekUTsqoeT82osWdmPGAxV9tGVdfEhQ4ZPWx0GWPPnwn1PmYopeyR\nwYA+EG2tAwKBgCa8X6NWc7No0FVXEx1bZaiobCR+x5I3hDnwbKuSyFy8iFJvFHel\nj6KU8TVNSMjaOrK9Edr9UnbVX5dzH6dc4i3C05xrCmjAByKi4CWhCiVCMtxd9Ct1\nYo9DvHWn7APi7ARncDe56/aS/Dhj3Q8xc72xQ4MmVKrdO10BbuBEf0tBAoGBAKFT\nU2WMgpfjPX6EjcYhtGk1KIX74WuIkp1dtk03GO9EZpJQlb2KCD0S6RHBqiyckf0v\nJzk8YvNs6Qa/NH+6cqptaeVheSZHdPRbzeu1VIBxkiph8bQ9Gdw9U8m7L0U6ASCW\nJLg2Da8mfBYAFVdbNrmsHffxb/5o1lzNPKWXjcxRAoGBAJxnspbE7VNDHn+u5+kq\n9lIBytapKaqLPZ3+3k4IUr+mw4RwfUDYzUjFqe8tGkomHH39eCDhIxvjsYyDzJDr\nai10+2doDAGvM6beXz8XSJ9agT7sXqTkUGEZmukmSfs3JhetwgQ1yrVekVEC8OH7\n4wdkHh50AZOX7lyvjLg5+tMU\n-----END PRIVATE KEY-----\n";
+
+
+#endif
